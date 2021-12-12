@@ -13,10 +13,6 @@ n, m = len(arr), len(arr[0])
 dx = [1, 0, -1, 0, 1, 1, -1, -1]
 dy = [0, 1, 0, -1, 1, -1, 1, -1]
 
-def print_arr():
-    pprint(arr)
-    print()
-
 def count():
     for i in range(n):
         for j in range(m):

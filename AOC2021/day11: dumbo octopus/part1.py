@@ -15,10 +15,6 @@ dy = [0, 1, 0, -1, 1, -1, 1, -1]
 
 total_flashes = 0
 
-def print_arr():
-    pprint(arr)
-    print()
-
 def count():
     for i in range(n):
         for j in range(m):
