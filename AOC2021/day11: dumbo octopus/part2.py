@@ -1,7 +1,5 @@
-from functools import total_ordering
 import sys
 import os
-from pprint import pprint
 
 DIR = os.path.dirname(os.path.abspath(__file__))
 
