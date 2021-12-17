@@ -88,4 +88,4 @@ def parse_packet(pad: bool):
 
 
 ans = parse_packet(True)
-print(ans)
+print(ans[1])
