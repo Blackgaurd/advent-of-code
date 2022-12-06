@@ -15,9 +15,7 @@ f.readline()
 for line in map(lambda x: x.rstrip("\n"), f.readlines()):
     tokens = line.split()
     n, a, b = map(int, [tokens[1], tokens[3], tokens[5]])
-    new = []
-    for i in range(n):
-        new.append(stacks[a].pop())
+    new = [stacks[a].pop() for i in range(n)]
     new.reverse()
     stacks[b].extend(new)
 
