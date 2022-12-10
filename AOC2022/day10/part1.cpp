@@ -15,7 +15,7 @@ void add_cycle(int inc) {
     X += inc;
 }
 int main() {
-    ifstream f("day9/input.txt");
+    ifstream f("day10/input.txt");
 
     string line;
     while (getline(f, line)) {
