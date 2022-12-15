@@ -32,7 +32,7 @@ int main() {
     int sx, sy, ex, ey;
     for (int i = 1; i < n; i++) {
         for (int j = 1; j < m; j++) {
-            if (grid[i][j] == 'a') {
+            if (grid[i][j] == 'S') {
                 sx = i;
                 sy = j;
                 grid[i][j] = 'a';
